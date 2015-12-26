@@ -2,6 +2,7 @@
 
 set -e
 
+cd $HOME
 here=$(dirname $0)
 
 echo "Installing rc files"
