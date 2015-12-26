@@ -1,0 +1,5 @@
+[user]
+	name = Valentin Voigt
+	email = mail@valentinvoigt.info
+[push]
+	default = simple
