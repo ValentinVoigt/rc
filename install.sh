@@ -5,7 +5,7 @@ set -e
 here=$(dirname $0)
 
 echo "Installing rc files"
-for rc in .vimrc. zshrc .gitconfig; do
+for rc in .vimrc .zshrc .gitconfig; do
 	ln -vsi "$here/$rc" "$HOME/$rc"
 done
 
